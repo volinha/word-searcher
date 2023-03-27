@@ -1,0 +1,32 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.form > label {
+  padding-bottom: 1rem;
+}
+
+.form > input {
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.words-list {
+  font-size: 1.2rem;
+}
